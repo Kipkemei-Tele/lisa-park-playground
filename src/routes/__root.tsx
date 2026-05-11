@@ -72,12 +72,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lisa Park — Kapsabet's family playground, picnic spot & dog-friendly green" },
-      { name: "description", content: "Lisa Park in Kapsabet — swings, picnic lawns and shaded paths. Dogs welcome. Open daily. Rated 4.1 by 49 visitors." },
-      { property: "og:title", content: "Lisa Park — Kapsabet" },
-      { property: "og:description", content: "Swings, picnics and open lawns in the heart of Kapsabet. Dogs allowed." },
+      { title: "Lisa Park" },
+      { name: "description", content: "Lisa Park in Kapsabet — swings, picnic lawns and shaded paths. Dogs welcome. Open Sunday-Friday." },
+      { property: "og:title", content: "Lisa Park" },
+      { property: "og:description", content: "Lisa Park in Kapsabet — swings, picnic lawns and shaded paths. Dogs welcome. Open Sunday-Friday." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Lisa Park" },
+      { name: "twitter:description", content: "Lisa Park in Kapsabet — swings, picnic lawns and shaded paths. Dogs welcome. Open Sunday-Friday." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d00922ad-99e5-475d-bfe7-f1f0e4c5d9dd/id-preview-6d27838a--0630f107-8b39-4eb5-9671-8786e4474571.lovable.app-1778520665133.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d00922ad-99e5-475d-bfe7-f1f0e4c5d9dd/id-preview-6d27838a--0630f107-8b39-4eb5-9671-8786e4474571.lovable.app-1778520665133.png" },
     ],
     links: [
       {
