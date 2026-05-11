@@ -3,6 +3,7 @@ import heroImg from "@/assets/hero.jpg";
 import picnicImg from "@/assets/picnic.jpg";
 import swingsImg from "@/assets/swings.jpg";
 import dogsImg from "@/assets/dogs.jpg";
+import playground2Img from "@/assets/playground2.jpg";
 import { MapPin, Phone, Star, Clock, Navigation } from "lucide-react";
 
 export const Route = createFileRoute("/")({
@@ -98,7 +99,7 @@ function Index() {
           {[
             { img: swingsImg, t: "Picnics & lawns", d: "Wide, shaded grass under mature trees. Bring a basket — stay until sunset." },
             { img: picnicImg, t: "Pool & play", d: "A splash of fun for the kids — pool time and play area side by side." },
-            { img: dogsImg, t: "PlayGround", d: "Plenty of room to run and play. Bring the kids and enjoy the open space." },
+            { img: dogsImg, img2: playground2Img, t: "PlayGround", d: "Plenty of room to run and play. Bring the kids and enjoy the open space." },
           ].map((f, i) => (
             <article key={f.t} className="group relative overflow-hidden rounded-3xl bg-card ring-1 ring-border">
               <div className="relative aspect-[4/5] overflow-hidden">
@@ -106,6 +107,14 @@ function Index() {
                 <div className="absolute top-4 left-4 size-8 rounded-full bg-cream text-leaf-deep flex items-center justify-center font-display font-bold text-sm">
                   0{i + 1}
                 </div>
+                {f.img2 && (
+                  <img
+                    src={f.img2}
+                    alt={`${f.t} – bouncy castle`}
+                    loading="lazy"
+                    className="absolute bottom-4 right-4 size-28 md:size-32 object-cover rounded-2xl ring-4 ring-cream shadow-xl"
+                  />
+                )}
               </div>
               <div className="p-6">
                 <h3 className="text-2xl font-bold">{f.t}</h3>
