@@ -72,14 +72,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Lisa Park — Kapsabet's family playground, picnic spot & dog-friendly green" },
+      { name: "description", content: "Lisa Park in Kapsabet — swings, picnic lawns and shaded paths. Dogs welcome. Open daily. Rated 4.1 by 49 visitors." },
+      { property: "og:title", content: "Lisa Park — Kapsabet" },
+      { property: "og:description", content: "Swings, picnics and open lawns in the heart of Kapsabet. Dogs allowed." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
