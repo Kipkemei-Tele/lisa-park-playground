@@ -217,7 +217,7 @@ function Index() {
             <span className="inline-block size-2.5 rounded-full bg-leaf" />
             Lisa Park
           </div>
-          <p>© {new Date().getFullYear()} Lisa Park, Kapsabet. Picnics · Swings · Dogs allowed.</p>
+          <p>© {new Date().getFullYear()} Lisa Park, Kapsabet. All rights deserved Kipkemei Tele</p>
         </div>
       </footer>
     </div>
