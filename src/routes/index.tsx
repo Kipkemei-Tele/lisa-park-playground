@@ -98,7 +98,7 @@ function Index() {
           {[
             { img: swingsImg, t: "Picnics & lawns", d: "Wide, shaded grass under mature trees. Bring a basket — stay until sunset." },
             { img: picnicImg, t: "Pool & play", d: "A splash of fun for the kids — pool time and play area side by side." },
-            { img: dogsImg, t: "Dogs allowed", d: "Plenty of room to run. Keep pups on a lead near the play area, please." },
+            { img: dogsImg, t: "PlayGround", d: "Plenty of room to run and play. Bring the kids and enjoy the open space." },
           ].map((f, i) => (
             <article key={f.t} className="group relative overflow-hidden rounded-3xl bg-card ring-1 ring-border">
               <div className="relative aspect-[4/5] overflow-hidden">
